@@ -1,5 +1,3 @@
-# pip install llama-index llama-index-core llama-index-embeddings-huggingface llama-index-memory-mem0 llama-index-llms-groq
-
 from llama_index.llms.groq import Groq
 from llama_index.core import Settings
 from llama_index.core.node_parser import SentenceSplitter
@@ -153,4 +151,5 @@ plt.title("Feedback Sentiments Over Time")
 plt.xlabel("Date")
 plt.ylabel("Count")
 plt.grid(True)
+
 plt.show()
